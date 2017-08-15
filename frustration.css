@@ -1,0 +1,50 @@
+/*Style List*/
+/*a href*/
+/*search button stuff*/
+/*search form*/
+/*background of body*/
+/*section class results*/
+/*h1*/
+/*img*/
+/*p*/
+/*button utility*/
+
+body{
+  background-color: black;
+}
+a {
+  color: red;
+  border: 1px solid red;
+}
+a:hover{
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+}
+.firstSection{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+form{
+  display: flex;
+  justify-content: center;
+}
+.results{
+display: flex;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+background-color: black;
+margin-left: 75px;
+}
+.boxes{
+  width: 23%;
+  color: white;
+  text-align: center;
+  border: 1px solid white;
+}
+.boxes p{
+  text-align: center;
+
+}
